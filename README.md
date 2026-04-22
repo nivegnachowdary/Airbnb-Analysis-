@@ -20,44 +20,7 @@
 - **Tableau:** For creating the interactive dashboard and visualizations.
 - **Jupyter Notebooks:** For exploratory data analysis and insights generation.
 
-## Prerequisites
-
-Before running the project, ensure you have the following installed:
-
-- **Python 3.x**
-- **pip** (Python package manager)
-
-## Installation
-
-To run the project locally, follow these steps:
-
-1. **Clone the repository:**
-
-    ```bash
-    git clone https://github.com/pp11-web/Airbnb-in-Santa-Clara-County.git
-    ```
-
-2. **Navigate to the project directory:**
-
-    ```bash
-    cd Airbnb-in-Santa-Clara-County
-    ```
-
-3. **Install the required dependencies:**
-
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-4. **Run the Jupyter Notebook:**
-
-    Launch Jupyter Notebook in your terminal:
-
-    ```bash
-    jupyter notebook
-    ```
-
-5. **Open and explore the notebooks** to see the analysis:
+**Open and explore the notebooks** to see the analysis:
 
     - `Airbnb_Analysis.ipynb` (Main analysis notebook)
     - `Sentiment_Analysis.ipynb` (Guest review sentiment analysis)
@@ -99,38 +62,6 @@ This project performs **sentiment analysis** on Airbnb guest reviews to understa
 
 The sentiment analysis helps hosts understand their guest feedback and improve their services.
 
-## Customization
-
-To customize the project:
-
-- Modify the layout in the **`app.py`** file to add or remove components.
-- Adjust the visualizations in the **`graphs.py`** file to change how the data is presented.
-- Update the dataset or add new data sources to analyze additional trade metrics or countries.
-
-## Contributing
-
-We welcome contributions to this project. If you’d like to contribute:
-
-1. **Fork the repository.**
-2. **Create a new branch:**
-
-    ```bash
-    git checkout -b feature/your-feature
-    ```
-
-3. **Commit your changes:**
-
-    ```bash
-    git commit -m "Add new feature"
-    ```
-
-4. **Push your changes:**
-
-    ```bash
-    git push origin feature/your-feature
-    ```
-
-5. Open a **Pull Request** to merge your changes.
 
 ## Future Enhancements
 
@@ -138,11 +69,4 @@ We welcome contributions to this project. If you’d like to contribute:
 - **Forecasting trends:** Use machine learning models to predict future Airbnb trends in the area.
 - **Host performance:** Add analysis of host response times, ratings, and other factors impacting guest experience.
 
-## License
-
-This project is licensed under the **MIT License**. For more details, see the [LICENSE](LICENSE) file.
-
-## Acknowledgements
-
-Special thanks to **Tableau Public** and the **Airbnb open data** community for providing the resources and tools to make this project possible.
 
